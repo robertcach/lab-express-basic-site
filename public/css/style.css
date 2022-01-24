@@ -1,0 +1,136 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+}
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+
+/* MENU */
+.nav, .nav-dark{
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav ul, .nav-dark ul {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    justify-content: space-between;
+}
+
+.nav ul li, .nav-dark ul li{
+    list-style-type: none;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.nav-dark ul li a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav-dark ul li a:hover{
+    border-bottom: 1px solid #000;
+}
+
+
+
+
+/* HOME */
+.home-background {
+    background-image: url(/images/background-home.jpg);
+    height: 100vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ABOUT */
+.about-background {
+    background-image: url(/images/background-about.jpg);
+    height: 100vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0px;
+    align-items: center;
+}
+
+.logo-linkin-park {
+    width: 40%;
+}
+
+
+
+/* DISCOGRAPHY */
+
+.works {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-work {
+    width: 80%;
+}
+
+
+.work-background {
+    background-image: url(/images/background-works.jpg);
+    height: 100vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-dark {
+    background-color: #000;
+}
